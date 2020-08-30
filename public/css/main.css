@@ -38,8 +38,102 @@
     transition: all 0.3s ease 0s;
     cursor: pointer;
     font-size: large;
+    margin-top: 45px;
 }
 
 .shop_now:hover {
     background-color: #1d60ca;
 }
+<<<<<<< HEAD
+=======
+
+.category {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.sbc {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+
+.category-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    overflow-wrap: normal;
+    margin-top: 70px;
+}
+
+.category-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-flow: column wrap;
+}
+
+.category-item-info {
+    padding-right: 50px;
+}
+
+.category-item.image1 {
+    background-image: url(../img/categories/cat1.jpg);
+    height: 343px;
+    width: 567px;
+    transition: all 0.3s ease 0s;
+}
+
+.category-item.image2 {
+    background-image: url(../img/categories/cat2.jpg);
+    height: 343px;
+    width: 567px;
+    transition: all 0.3s ease 0s;
+}
+
+.category-item.image3 {
+    background-image: url(../img/categories/cat3.jpg);
+    height: 343px;
+    width: 567px;
+    transition: all 0.3s ease 0s;
+}
+
+.category-item.image1:hover,
+.category-item.image2:hover,
+.category-item.image3:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.category_header {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-bottom: 10px
+}
+
+.yellow_button {
+    background-color: #fece24;
+    font-size: small;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.yellow_button:hover {
+    background-color: #d8b01f;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.new_collection {
+    font-family: 'Dancing Script', cursive;
+    color: #2577fe;
+    font-size: 30px;
+}
+>>>>>>> origin/shop_by_category
