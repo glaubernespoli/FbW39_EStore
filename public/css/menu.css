@@ -2,17 +2,22 @@
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: medium;
     font-weight: bold;
     font-family: 'Abel', sans-serif;
-    /**height: 10vh;**/
+    height: 10vh;
     background: black;
+}
+
+img.usa {
+    margin-right: 6px;
 }
 
 .header-info {
     background: black;
     display: flex;
-    padding-left: 7vw;
+    padding-left: 4vw;
 }
 
 
@@ -20,27 +25,27 @@
 .wrapper-box {
     margin: 3px;
     display: flex;
-    align-items: center;
     font-size: medium;
     color: white;
-    
+
 }
 
 #country {
     background: black;
     border: none;
     color: white;
-    
-    
+
+
 }
 
-.wtf {
-
+.wrapper-box.phone {
+    font-family: 'Alata', sans-serif;
 }
 
 .header-top-nav-bar {
     display: flex;
     align-items: center;
+    font-family: 'Alata', sans-serif;
 }
 
 .header-top-nav-bar ul {
@@ -64,11 +69,13 @@
 .header-top-nav-bar ul li a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 .header-top-nav-bar ul li a:hover {
     background-color: rgb(54, 54, 54);
     transition: 0.5s;
     border-bottom: 2px solid white;
-    
+
 }
