@@ -216,3 +216,52 @@ p {
     color: #2577fe;
     font-size: 30px;
 }
+
+div.best-products {
+    display: flex;
+    background-image: url(../img/categories/card.png);
+    height: 60vh;
+    width: 93vw;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.best-products-info {
+    padding-top: 30px;
+}
+
+h3.ftbp {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.designer {
+    font-family: 'Alata', sans-serif;
+    margin: 13px 0 30px 0;
+}
+
+.shop_now2 {
+    padding: 13px 40px;
+    border-radius: 40px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 45px;
+}
+
+.shop_now2:hover {
+    background-color: rgb(63, 60, 60);
+}
+
+.best-products-img-shape {
+    opacity: 0.7;
+    padding-top: 300px;
+    padding-left: 300px;
+}
