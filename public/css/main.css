@@ -1,3 +1,81 @@
+.main-nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+
+
+li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: fb400;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border-bottom: solid 3px;
+    border-bottom-color: #2577fe;
+}
+
+.wrapper-box {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.wrapper-box.bcg {
+    background-color: #fff;
+    height: 20px;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.logo,
+.search-products-button,
+.nav-options-button,
+.signin-button:hover {
+    cursor: pointer;
+}
+
+.search-products-button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.nav-options-button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.signin-button {
+    padding: 13px 33px;
+    border-radius: 40px;
+    background-color: #2577fe;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.signin-button:hover {
+    background-color: #1d60ca;
+}
+
 .hero-wrapper {
     background-image: url(../img/hero/h1_hero.jpg);
     display: flex;
@@ -44,8 +122,6 @@
 .shop_now:hover {
     background-color: #1d60ca;
 }
-<<<<<<< HEAD
-=======
 
 .category {
     text-align: center;
@@ -136,4 +212,3 @@ p {
     color: #2577fe;
     font-size: 30px;
 }
->>>>>>> origin/shop_by_category
