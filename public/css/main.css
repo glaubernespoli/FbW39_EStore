@@ -79,18 +79,28 @@
     background-image: url(../img/categories/cat1.jpg);
     height: 343px;
     width: 567px;
+    transition: all 0.3s ease 0s;
 }
 
 .category-item.image2 {
     background-image: url(../img/categories/cat2.jpg);
     height: 343px;
     width: 567px;
+    transition: all 0.3s ease 0s;
 }
 
 .category-item.image3 {
     background-image: url(../img/categories/cat3.jpg);
     height: 343px;
     width: 567px;
+    transition: all 0.3s ease 0s;
+}
+
+.category-item.image1:hover,
+.category-item.image2:hover,
+.category-item.image3:hover {
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 .category_header {
