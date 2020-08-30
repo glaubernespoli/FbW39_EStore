@@ -1,0 +1,40 @@
+.hero-wrapper {
+    background-image: url(../img/hero/h1_hero.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.line_1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #2577fe;
+    margin: 0px 0px -80px 0px;
+}
+
+.line_2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 90px;
+}
+
+.line_3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-top: -70px
+}
+
+.shop_now {
+    padding: 13px 33px;
+    border-radius: 40px;
+    background-color: #2577fe;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-size: large;
+}
+
+.shop_now:hover {
+    background-color: #1d60ca;
+}
