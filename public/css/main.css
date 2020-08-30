@@ -6,6 +6,11 @@
     flex-wrap: wrap;
 }
 
+.hero-info {
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
 .line_1 {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
