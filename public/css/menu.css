@@ -69,5 +69,6 @@
 .header-top-nav-bar ul li a:hover {
     background-color: rgb(54, 54, 54);
     transition: 0.5s;
+    border-bottom: 2px solid white;
     
 }
