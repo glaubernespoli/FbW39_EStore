@@ -1,83 +1,45 @@
-@font-face {
-    src: url('vendor/fontawesome/webfonts/fa-brands-400.ttf');
-    font-family: 'fb400';
-    font-style: normal;
-}
-
-.main-nav-bar {
+.hero-wrapper {
+    background-image: url(../img/hero/h1_hero.jpg);
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin: 30px 0;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-
-li {
-    display: inline-block;
-    padding: 0px 20px;
-    font-family: fb400;
+.hero-info {
+    margin-bottom: 100px;
+    margin-left: 50px;
 }
 
-input {
-    border: none;
-    border-radius: 10px;
+.line_1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #2577fe;
+    margin: 0px 0px -80px 0px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.line_2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 90px;
 }
 
-a:hover {
-    border-bottom: solid 3px;
-    border-bottom-color: #2577fe;
+.line_3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-top: -70px
 }
 
-.wrapper-box {
-    display: inline-block;
-    padding: 0px 30px;
-}
-
-.wrapper-box.bcg {
-    background-color: #fff;
-    height: 20px;
-    border-radius: 40px;
-    border: 1px solid lightgray;
-    padding: 10px;
-}
-
-.logo,
-.search-products-button,
-.nav-options-button,
-.signin-button:hover {
-    cursor: pointer;
-}
-
-.search-products-button {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    font-size: 16px;
-}
-
-.nav-options-button {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    font-size: 16px;
-}
-
-.signin-button {
+.shop_now {
     padding: 13px 33px;
     border-radius: 40px;
     background-color: #2577fe;
     color: #fff;
     border: none;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-size: large;
 }
 
-.signin-button:hover {
+.shop_now:hover {
     background-color: #1d60ca;
 }
