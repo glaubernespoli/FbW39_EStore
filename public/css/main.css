@@ -274,7 +274,7 @@ a:hover {
 
 /* Latest Products */
 div.latest-products {
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -320,11 +320,31 @@ div.latest-products-content {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 4rem;
+    /* padding-right: 4rem; */
 }
 
 div.latest-products-content>div.latest-products-content-item>div.latest-products-img-wrapper>img {
     height: 60%;
     width: 60%;
+}
+
+div.latest-products-content-item {
+    position: relative;
+    left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.latest-products-img-wrapper {
+    /* display: flex; */
+}
+
+div.latest-products-content-item-new {
+    position: relative;
+    bottom: 15rem;
+
 }
 
 /* Find the Best Product */

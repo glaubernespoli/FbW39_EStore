@@ -1,394 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EStore</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/vendor/fontawesome/css/all.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/menu.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EStore</title>
 
-  <body>
-    <!-- Top Nav Bar-->
-    <div class="header">
-      <div class="header-info">
-        <div class="wrapper-box">
-          <img src="img/icon/header_icon.png" alt="usa" class="usa" />
-          <select name="country" id="country">
-            <option value="usa">USA</option>
-          </select>
-        </div>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/vendor/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+</head>
 
-        <div class="wrapper-box phone">
-          <span>+777 2345 7886</span>
-        </div>
+<body>
+  <!-- Top Nav Bar-->
+  <div class="header">
+    <div class="header-info">
+      <div class="wrapper-box">
+        <img src="img/icon/header_icon.png" alt="usa" class="usa" />
+        <select name="country" id="country">
+          <option value="usa">USA</option>
+        </select>
       </div>
 
-      <div class="header-top-nav-bar">
+      <div class="wrapper-box phone">
+        <span>+777 2345 7886</span>
+      </div>
+    </div>
+
+    <div class="header-top-nav-bar">
+      <ul>
+        <li><a>My Account</a></li>
+        <li><a>Wish List</a></li>
+        <li><a>Shopping</a></li>
+        <li><a>Cart</a></li>
+        <li><a>Checkout</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main Nav Bar -->
+  <div class="main-nav-bar">
+    <div class="logo"><img src="img/logo/logo.png" alt="logo" /></div>
+
+    <div class="nav-bar">
+      <ul class="nav-bar-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Catagori</a></li>
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="main-options">
+      <div class="wrapper-box bcg">
+        <input type="search" name="search-products" id="search-products" placeholder="Search products" />
+        <button type="button" class="search-products-button">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+
+      <div class="wrapper-box">
+        <button type="button" class="nav-options-button">
+          <i class="far fa-heart"></i>
+        </button>
+      </div>
+
+      <div class="wrapper-box">
+        <button type="button" class="nav-options-button">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+      </div>
+
+      <div class="wrapper-box">
+        <button type="button" class="signin-button">Sign In</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero-wrapper" id="home">
+    <img src="img/hero/hero_man.png" alt="Hero" class="hero-photo" />
+
+    <div class="hero-info">
+      <h5 class="line_1">60% Discount</h5>
+      <h2 class="line_2">
+        Winter<br />
+        Collection
+      </h2>
+      <p class="line_3">Best Cloth Collection By 2020!</p>
+      <button type="button" class="shop_now">Shop Now</button>
+    </div>
+  </div>
+
+  <!-- Shop By Category-->
+  <div class="category" id="category">
+    <h3 class="sbc">Shop By Category</h3>
+    <div class="category-wrapper">
+      <div class="category-item image1">
+        <div class="category-item-info">
+          <img src="img/categories/cat1.jpg" alt="cat1" class="cat1" />
+          <p class="category_header1">Owmen`s</p>
+          <button type="button" class="yellow_button1">Best New Deals</button>
+          <p class="new_collection_first">New Collection</p>
+        </div>
+      </div>
+      <div class="category-item image2">
+        <div class="category-item-info">
+          <img src="img/categories/cat2.jpg" alt="cat2" class="cat2" />
+          <p class="new_collection_second">Discount!</p>
+          <p class="category_header2">Winter Cloth</p>
+          <p class="new_collection2">New Collection</p>
+        </div>
+      </div>
+      <div class="category-item image3">
+        <div class="category-item-info">
+          <img src="img/categories/cat3.jpg" alt="cat3" class="cat3" />
+          <p class="category_header3">Man`s Cloth</p>
+          <button type="button" class="yellow_button3">Best New Deals</button>
+          <p class="new_collection_third">New Collection</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Latest Products -->
+  <div class="latest-products">
+    <div class="latest-products-header">
+      <h3>Latest Products</h3>
+      <div class="latest-products-nav-bar">
         <ul>
-          <li><a>My Account</a></li>
-          <li><a>Wish List</a></li>
-          <li><a>Shopping</a></li>
-          <li><a>Cart</a></li>
-          <li><a>Checkout</a></li>
+          <li>All</li>
+          <li>New</li>
+          <li>Featured</li>
+          <li>Offer</li>
         </ul>
       </div>
     </div>
-
-    <!-- Main Nav Bar -->
-    <div class="main-nav-bar">
-      <div class="logo"><img src="img/logo/logo.png" alt="logo" /></div>
-
-      <div class="nav-bar">
-        <ul class="nav-bar-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Catagori</a></li>
-          <li><a href="#">Latest</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-
-      <div class="main-options">
-        <div class="wrapper-box bcg">
-          <input
-            type="search"
-            name="search-products"
-            id="search-products"
-            placeholder="Search products"
-          />
-          <button type="button" class="search-products-button">
-            <i class="fas fa-search"></i>
-          </button>
+    <hr />
+    <div class="latest-products-content">
+      <div class="latest-products-content-item">
+        <div class="latest-products-img-wrapper">
+          <img src="img/categories/product1.png" alt="Product 1" />
+          <div class="latest-products-content-item-new">New</div>
         </div>
-
-        <div class="wrapper-box">
-          <button type="button" class="nav-options-button">
-            <i class="far fa-heart"></i>
-          </button>
-        </div>
-
-        <div class="wrapper-box">
-          <button type="button" class="nav-options-button">
-            <i class="fas fa-shopping-cart"></i>
-          </button>
-        </div>
-
-        <div class="wrapper-box">
-          <button type="button" class="signin-button">Sign In</button>
+        <div class="latest-products-content-item-rate"></div>
+        <h6>Green Dress with details</h6>
+        <div class="latest-products-content-item-prices">
+          <div class="price-current"><span>$40.00</span></div>
+          <div class="price-original"><span>$60.00</span></div>
         </div>
       </div>
-    </div>
 
-    <!-- Hero Section -->
-    <div class="hero-wrapper" id="home">
-      <img src="img/hero/hero_man.png" alt="Hero" class="hero-photo" />
-
-      <div class="hero-info">
-        <h5 class="line_1">60% Discount</h5>
-        <h2 class="line_2">
-          Winter<br />
-          Collection
-        </h2>
-        <p class="line_3">Best Cloth Collection By 2020!</p>
-        <button type="button" class="shop_now">Shop Now</button>
+      <div class="latest-products-content-item">
+        <div class="latest-products-img-wrapper">
+          <img src="img/categories/product2.png" alt="Product 2" />
+        </div>
+        <div class="latest-products-content-item-rate"></div>
+        <h6>Green Dress with details</h6>
+        <div class="latest-products-content-item-prices">
+          <div class="price-current"><span>$40.00</span></div>
+          <div class="price-original"><span>$60.00</span></div>
+        </div>
       </div>
-    </div>
 
-    <!-- Shop By Category-->
-    <div class="category" id="category">
-      <h3 class="sbc">Shop By Category</h3>
-      <div class="category-wrapper">
-        <div class="category-item image1">
-          <div class="category-item-info">
-            <img src="img/categories/cat1.jpg" alt="cat1" class="cat1" />
-            <p class="category_header1">Owmen`s</p>
-            <button type="button" class="yellow_button1">Best New Deals</button>
-            <p class="new_collection_first">New Collection</p>
-          </div>
+      <div class="latest-products-content-item">
+        <div class="latest-products-img-wrapper">
+          <img src="img/categories/product3.png" alt="Product 3" />
+          <div class="latest-products-content-item-new">New</div>
         </div>
-        <div class="category-item image2">
-          <div class="category-item-info">
-            <img src="img/categories/cat2.jpg" alt="cat2" class="cat2" />
-            <p class="new_collection_second">Discount!</p>
-            <p class="category_header2">Winter Cloth</p>
-            <p class="new_collection2">New Collection</p>
-          </div>
+        <div class="latest-products-content-item-rate"></div>
+        <h6>Green Dress with details</h6>
+        <div class="latest-products-content-item-prices">
+          <div class="price-current"><span>$40.00</span></div>
+          <div class="price-original"><span>$60.00</span></div>
         </div>
-        <div class="category-item image3">
-          <div class="category-item-info">
-            <img src="img/categories/cat3.jpg" alt="cat3" class="cat3" />
-            <p class="category_header3">Man`s Cloth</p>
-            <button type="button" class="yellow_button3">Best New Deals</button>
-            <p class="new_collection_third">New Collection</p>
-          </div>
+      </div>
+
+      <div class="latest-products-content-item">
+        <div class="latest-products-img-wrapper">
+          <img src="img/categories/product4.png" alt="Product 4" />
+        </div>
+        <div class="latest-products-content-item-rate"></div>
+        <h6>Green Dress with details</h6>
+        <div class="latest-products-content-item-prices">
+          <div class="price-current"><span>$40.00</span></div>
+          <div class="price-original"><span>$60.00</span></div>
+        </div>
+      </div>
+
+      <div class="latest-products-content-item">
+        <div class="latest-products-img-wrapper">
+          <img src="img/categories/product5.png" alt="Product 5" />
+        </div>
+        <div class="latest-products-content-item-rate"></div>
+        <h6>Green Dress with details</h6>
+        <div class="latest-products-content-item-prices">
+          <div class="price-current"><span>$40.00</span></div>
+          <div class="price-original"><span>$60.00</span></div>
+        </div>
+      </div>
+
+      <div class="latest-products-content-item">
+        <div class="latest-products-img-wrapper">
+          <img src="img/categories/product6.png" alt="Product 6" />
+          <div class="latest-products-content-item-new">New</div>
+        </div>
+        <div class="latest-products-content-item-rate"></div>
+        <h6>Green Dress with details</h6>
+        <div class="latest-products-content-item-prices">
+          <div class="price-current"><span>$40.00</span></div>
+          <div class="price-original"><span>$60.00</span></div>
         </div>
       </div>
     </div>
-    <!-- Latest Products -->
-    <div class="latest-products">
-      <div class="latest-products-header">
-        <h3>Latest Products</h3>
-        <div class="latest-products-nav-bar">
-          <ul>
-            <li>All</li>
-            <li>New</li>
-            <li>Featured</li>
-            <li>Offer</li>
-          </ul>
-        </div>
+  </div>
+
+  <!-- Find the Best Product -->
+  <div class="best-products">
+    <img src="img/categories/card-man.png" alt="This Guy" class="best-products-img-man" />
+    <div class="best-products-info">
+      <h3 class="ftbp">
+        Find The Best Product<br />
+        from Our Shop
+      </h3>
+      <p class="designer">
+        Designers who are interested creating what? this text doesn't make
+        sense
+      </p>
+      <button type="button" class="shop_now2">Shop Now</button>
+    </div>
+    <img src="img/categories/card-shape.png" alt="This Cloth" class="best-products-img-shape" />
+  </div>
+
+  <!-- Best Collection of the month -->
+  <div class="best-collection-month">
+    <div class="best-collection-month-col">
+      <div class="best-collection-month-info">
+        <h3>Best Collection of This Month</h3>
+        <p>Another nonsense paragraph.</p>
+        <button type="button">Shop Now</button>
       </div>
-      <hr />
-      <div class="latest-products-content">
-        <div class="latest-products-content-item">
-          <div class="latest-products-img-wrapper">
-            <img src="img/categories/product1.png" alt="Product 1" />
-            <div class="latest-products-content-item-new">New</div>
-          </div>
-          <div class="latest-products-content-item-rate"></div>
-          <h6>Green Dress with details</h6>
-          <div class="latest-products-content-item-prices">
-            <div class="price-current"><span>$40.00</span></div>
-            <div class="price-original"><span>$60.00</span></div>
-          </div>
-        </div>
-
-        <div class="latest-products-content-item">
-          <div class="latest-products-img-wrapper">
-            <img src="img/categories/product2.png" alt="Product 2" />
-          </div>
-          <div class="latest-products-content-item-rate"></div>
-          <h6>Green Dress with details</h6>
-          <div class="latest-products-content-item-prices">
-            <div class="price-current"><span>$40.00</span></div>
-            <div class="price-original"><span>$60.00</span></div>
-          </div>
-        </div>
-
-        <div class="latest-products-content-item">
-          <div class="latest-products-img-wrapper">
-            <img src="img/categories/product3.png" alt="Product 3" />
-            <div class="latest-products-content-item-new"></div>
-          </div>
-          <div class="latest-products-content-item-rate"></div>
-          <h6>Green Dress with details</h6>
-          <div class="latest-products-content-item-prices">
-            <div class="price-current"><span>$40.00</span></div>
-            <div class="price-original"><span>$60.00</span></div>
-          </div>
-        </div>
-
-        <div class="latest-products-content-item">
-          <div class="latest-products-img-wrapper">
-            <img src="img/categories/product4.png" alt="Product 4" />
-          </div>
-          <div class="latest-products-content-item-rate"></div>
-          <h6>Green Dress with details</h6>
-          <div class="latest-products-content-item-prices">
-            <div class="price-current"><span>$40.00</span></div>
-            <div class="price-original"><span>$60.00</span></div>
-          </div>
-        </div>
-
-        <div class="latest-products-content-item">
-          <div class="latest-products-img-wrapper">
-            <img src="img/categories/product5.png" alt="Product 5" />
-          </div>
-          <div class="latest-products-content-item-rate"></div>
-          <h6>Green Dress with details</h6>
-          <div class="latest-products-content-item-prices">
-            <div class="price-current"><span>$40.00</span></div>
-            <div class="price-original"><span>$60.00</span></div>
-          </div>
-        </div>
-
-        <div class="latest-products-content-item">
-          <div class="latest-products-img-wrapper">
-            <img src="img/categories/product6.png" alt="Product 6" />
-            <div class="latest-products-content-item-new"></div>
-          </div>
-          <div class="latest-products-content-item-rate"></div>
-          <h6>Green Dress with details</h6>
-          <div class="latest-products-content-item-prices">
-            <div class="price-current"><span>$40.00</span></div>
-            <div class="price-original"><span>$60.00</span></div>
-          </div>
-        </div>
-      </div>
+      <img src="img/collection/collection1.png" alt="Whatever" />
     </div>
 
-    <!-- Find the Best Product -->
-    <div class="best-products">
-      <img
-        src="img/categories/card-man.png"
-        alt="This Guy"
-        class="best-products-img-man"
-      />
-      <div class="best-products-info">
-        <h3 class="ftbp">
-          Find The Best Product<br />
-          from Our Shop
-        </h3>
-        <p class="designer">
-          Designers who are interested creating what? this text doesn't make
-          sense
-        </p>
-        <button type="button" class="shop_now2">Shop Now</button>
-      </div>
-      <img
-        src="img/categories/card-shape.png"
-        alt="This Cloth"
-        class="best-products-img-shape"
-      />
+    <div class="best-collection-month-col">
+      <img src="img/collection/collection2.png" alt="Guy" />
     </div>
 
-    <!-- Best Collection of the month -->
-    <div class="best-collection-month">
-      <div class="best-collection-month-col">
-        <div class="best-collection-month-info">
-          <h3>Best Collection of This Month</h3>
-          <p>Another nonsense paragraph.</p>
-          <button type="button">Shop Now</button>
-        </div>
-        <img src="img/collection/collection1.png" alt="Whatever" />
+    <div class="best-collection-month-col">
+      <div class="best-collection-month-item">
+        <h5>Menz Winter Jacket</h5>
+        <img src="img/collection/collection3.png" alt="1" />
       </div>
-
-      <div class="best-collection-month-col">
-        <img src="img/collection/collection2.png" alt="Guy" />
+      <div class="best-collection-month-item selected">
+        <h5>Menz Winter Jacket</h5>
+        <img src="img/collection/collection4.png" alt="2" />
       </div>
-
-      <div class="best-collection-month-col">
-        <div class="best-collection-month-item">
-          <h5>Menz Winter Jacket</h5>
-          <img src="img/collection/collection3.png" alt="1" />
-        </div>
-        <div class="best-collection-month-item selected">
-          <h5>Menz Winter Jacket</h5>
-          <img src="img/collection/collection4.png" alt="2" />
-        </div>
-        <div class="best-collection-month-item">
-          <h5>Menz Winter Jacket</h5>
-          <img src="img/collection/collection5.png" alt="3" />
-        </div>
+      <div class="best-collection-month-item">
+        <h5>Menz Winter Jacket</h5>
+        <img src="img/collection/collection5.png" alt="3" />
       </div>
     </div>
+  </div>
 
-    <!-- Subscribe -->
-    <div class="latest-news">
-      <img src="img/collection/latest-man.png" alt="last" />
-      <div class="latest-news-info">
-        <h3>Get Our Latest Offers News</h3>
-        <p>Subscribe to our Newsletter</p>
-      </div>
-
-      <div class="latest-news-subscribe-box">
-        <input
-          type="email"
-          name="subscribe"
-          id="subscribe"
-          placeholder="Your email here"
-        />
-        <button type="button">Subscribe</button>
-      </div>
+  <!-- Subscribe -->
+  <div class="latest-news">
+    <img src="img/collection/latest-man.png" alt="last" />
+    <div class="latest-news-info">
+      <h3>Get Our Latest Offers News</h3>
+      <p>Subscribe to our Newsletter</p>
     </div>
 
-    <!-- Info -->
-    <div class="general-info">
-      <div class="general-info-box">
-        <i class="fas fa-truck"></i>
-        <h5>Free Shipping Method</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-      </div>
-      <div class="general-info-box">
-        <i class="fas fa-unlock-alt"></i>
-        <h5>Secure Payment System</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-      </div>
-      <div class="general-info-box">
-        <i class="fas fa-sync"></i>
-        <h5>Whatever this is</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-      </div>
+    <div class="latest-news-subscribe-box">
+      <input type="email" name="subscribe" id="subscribe" placeholder="Your email here" />
+      <button type="button">Subscribe</button>
+    </div>
+  </div>
+
+  <!-- Info -->
+  <div class="general-info">
+    <div class="general-info-box">
+      <i class="fas fa-truck"></i>
+      <h5>Free Shipping Method</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="general-info-box">
+      <i class="fas fa-unlock-alt"></i>
+      <h5>Secure Payment System</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="general-info-box">
+      <i class="fas fa-sync"></i>
+      <h5>Whatever this is</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+  </div>
+
+  <!-- Gallery of beautiful white people -->
+  <div class="gallery">
+    <img src="img/gallery/gallery1.jpg" alt="Beautiful White Person #1" />
+    <img src="img/gallery/gallery2.jpg" alt="Beautiful White Person #2" />
+    <img src="img/gallery/gallery3.jpg" alt="Beautiful White Person #3" />
+    <img src="img/gallery/gallery4.jpg" alt="Beautiful White Person #4" />
+    <img src="img/gallery/gallery5.jpg" alt="Beautiful White Person #5" />
+  </div>
+
+  <!-- Links -->
+  <div class="footer-links">
+    <div class="footer-links-col">
+      <img src="img/logo/logo.png" alt="Logo" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex inventore
+        sit ratione at modi asperiores.
+      </p>
     </div>
 
-    <!-- Gallery of beautiful white people -->
-    <div class="gallery">
-      <img src="img/gallery/gallery1.jpg" alt="Beautiful White Person #1" />
-      <img src="img/gallery/gallery2.jpg" alt="Beautiful White Person #2" />
-      <img src="img/gallery/gallery3.jpg" alt="Beautiful White Person #3" />
-      <img src="img/gallery/gallery4.jpg" alt="Beautiful White Person #4" />
-      <img src="img/gallery/gallery5.jpg" alt="Beautiful White Person #5" />
+    <div class="footer-links-col">
+      <h5>Quick Links</h5>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Offers & Discounts</a></li>
+        <li><a href="#">Get Coupon</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-links-col">
+      <h5>New Products</h5>
+      <ul>
+        <li><a href="#">Woman Cloth</a></li>
+        <li><a href="#">Fashion Accessories</a></li>
+        <li><a href="#">Man Accessories</a></li>
+        <li><a href="#">Rubber Made Toys</a></li>
+      </ul>
+    </div>
+    <div class="footer-links-col">
+      <h5>Support</h5>
+      <ul>
+        <li><a href="#">Frequently Asked Questions</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Report a Payment Issue</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-info">
+      <p>
+        Copyright &copy;2020 All rights reserverd | This template is made with
+        <i class="far fa-heart"></i> by
+        <span class="footer-who">FbW39 Class</span>.
+      </p>
     </div>
 
-    <!-- Links -->
-    <div class="footer-links">
-      <div class="footer-links-col">
-        <img src="img/logo/logo.png" alt="Logo" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex inventore
-          sit ratione at modi asperiores.
-        </p>
-      </div>
-
-      <div class="footer-links-col">
-        <h5>Quick Links</h5>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Offers & Discounts</a></li>
-          <li><a href="#">Get Coupon</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="footer-links-col">
-        <h5>New Products</h5>
-        <ul>
-          <li><a href="#">Woman Cloth</a></li>
-          <li><a href="#">Fashion Accessories</a></li>
-          <li><a href="#">Man Accessories</a></li>
-          <li><a href="#">Rubber Made Toys</a></li>
-        </ul>
-      </div>
-      <div class="footer-links-col">
-        <h5>Support</h5>
-        <ul>
-          <li><a href="#">Frequently Asked Questions</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Report a Payment Issue</a></li>
-        </ul>
-      </div>
+    <div class="footer-social">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-pinterest"></i>
     </div>
+  </div>
+</body>
 
-    <div class="footer">
-      <div class="footer-info">
-        <p>
-          Copyright &copy;2020 All rights reserverd | This template is made with
-          <i class="far fa-heart"></i> by
-          <span class="footer-who">FbW39 Class</span>.
-        </p>
-      </div>
-
-      <div class="footer-social">
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-pinterest"></i>
-      </div>
-    </div>
-  </body>
 </html>
