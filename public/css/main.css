@@ -323,76 +323,90 @@ div.latest-products-content {
     /* padding-right: 4rem; */
 }
 
-div.latest-products-content>div.latest-products-content-item>div.latest-products-img-wrapper>img {
-    height: 60%;
-    width: 60%;
+div.latest-products-content
+  > div.latest-products-content-item
+  > div.latest-products-img-wrapper
+  > img {
+  height: 60%;
+  width: 60%;
 }
 
 div.latest-products-content-item {
-    position: relative;
-    left: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  position: relative;
+  left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 div.latest-products-img-wrapper {
-    /* display: flex; */
+  /* display: flex; */
 }
 
 div.latest-products-content-item-new {
-    position: relative;
-    bottom: 15rem;
-
+  position: relative;
+  bottom: 15rem;
+  left: 0.5rem;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  width: 3rem;
+  text-align: center;
+  font-family: "Alata", sans-serif;
+  font-size: small;
+  padding: 2px;
+}
+div.latest-products-content-item > h6 {
+  font-family: "Alata", sans-serif;
 }
 
 /* Find the Best Product */
 
 div.best-products {
-    display: flex;
-    background-image: url(../img/categories/card.png);
-    height: 60vh;
-    width: 93vw;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-bottom: 60px;
+  display: flex;
+  background-image: url(../img/categories/card.png);
+  height: 60vh;
+  width: 93vw;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 60px;
 }
 
 .best-products-info {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 h3.ftbp {
-    font-family: "Playfair Display", serif;
-    font-size: 50px;
-    padding: 0;
-    margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
 }
 
 .designer {
-    font-family: "Alata", sans-serif;
-    margin: 13px 0 30px 0;
+  font-family: "Alata", sans-serif;
+  margin: 13px 0 30px 0;
 }
 
 .shop_now2 {
-    padding: 13px 40px;
-    border-radius: 40px;
-    background-color: black;
-    color: #fff;
-    border: none;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    font-size: large;
-    margin-top: 45px;
+  padding: 13px 40px;
+  border-radius: 40px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  font-size: large;
+  margin-top: 45px;
 }
 
 .shop_now2:hover {
-    background-color: rgb(63, 60, 60);
+  background-color: rgb(63, 60, 60);
 }
 
 .best-products-img-shape {
-    opacity: 0.7;
-    padding-top: 300px;
-    padding-left: 300px;
+  opacity: 0.7;
+  padding-top: 300px;
+  padding-left: 300px;
 }
