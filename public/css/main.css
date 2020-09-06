@@ -494,6 +494,7 @@ h3.ftbp {
 div.best-collection-month {
   display: flex;
   justify-content: center;
+  margin-bottom: 10em;
 }
 div.best-collection-month-col.column1 {
   display: flex;
@@ -563,4 +564,37 @@ div.best-collection-month-item > h5:hover {
 div.best-collection-month-item > img {
   margin-left: 3em;
   width: 35%;
+}
+
+/* Subscribe */
+
+div.latest-news {
+  position: relative;
+  left: 3em;
+  background-image: url(../img/collection/latest-offer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 93vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+div.latest-news > img {
+  width: 32%;
+  position: relative;
+  top: 2em;
+  left: 2em;
+}
+div.latest-news-info {
+  position: relative;
+  right: 7em;
+  bottom: 2em;
+}
+div.latest-news-info > h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+}
+div.latest-news-info > p {
+  font-family: "Alata", sans-serif;
+  margin: 0.8em 0 1.8em 0;
 }
