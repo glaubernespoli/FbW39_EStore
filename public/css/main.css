@@ -447,7 +447,6 @@ div.best-products {
   max-width: 93vw;
   justify-content: space-evenly;
   align-items: center;
-  padding-bottom: 3.7em;
 }
 
 div > img.best-products-img-man {
@@ -456,15 +455,9 @@ div > img.best-products-img-man {
   bottom: 6em;
 }
 
-.best-products-info {
-  padding-top: 1.8em;
-}
-
 h3.ftbp {
   font-family: "Playfair Display", serif;
   font-size: 2.5em;
-  padding: 0;
-  margin: 0;
 }
 
 .designer {
@@ -480,8 +473,8 @@ h3.ftbp {
   border: none;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  font-size: large;
-  margin-top: 2.8em;
+  font-size: medium;
+  margin-top: 1em;
 }
 
 .shop_now2:hover {
@@ -490,46 +483,84 @@ h3.ftbp {
 
 .best-products-img-shape {
   opacity: 0.7;
+  width: 10%;
+  position: relative;
+  top: 5em;
+  left: 4em;
 }
 
 /* Best Collection of the month */
 
 div.best-collection-month {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 div.best-collection-month-col.column1 {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  position: relative;
+  right: 6em;
 }
 div.best-collection-month-col.column1 > img {
   position: relative;
-  top: 7em;
+  top: 3em;
+  width: 75%;
 }
 
 div.best-collection-month-info > h3 {
   font-family: "Playfair Display", serif;
-  font-size: 1.9em;
-  padding: 0;
-  margin: 0;
+  font-size: 2em;
 }
 div.best-collection-month-info > p {
   font-family: "Alata", sans-serif;
   margin: 0.8em 0 1.8em 0;
 }
-div.best-collection-month-info > button.shop_now2 {
-  padding: 0.9em 2.7em;
-  border-radius: 40px;
+div.best-collection-month-info > button.shop_now3 {
+  padding: 0.8em 2.5em;
+  border-radius: 25px;
   background-color: #2577fe;
   color: #fff;
   border: none;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  font-size: large;
-  margin-top: 2.8em;
+  font-size: medium;
+  margin-top: 1.8em;
 }
-div.best-collection-month-info > button.shop_now2:hover {
+div.best-collection-month-info > button.shop_now3:hover {
   background-color: #1d60ca;
+}
+div.best-collection-month-col.column2 > img {
+  width: 80%;
+}
+div.best-collection-month-col.column3 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+  left: 3em;
+}
+div.best-collection-month-item {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5em;
+  cursor: pointer;
+}
+div.best-collection-month-item > h5 {
+  text-align: right;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: medium;
+  transition: all 0.3s ease 0s;
+  padding: 1em 1em;
+}
+div.best-collection-month-item > h5:hover {
+  background-color: #2577fe;
+  padding: 1em 1em;
+  border-radius: 10px;
+  color: white;
+}
+div.best-collection-month-item > img {
+  margin-left: 3em;
+  width: 35%;
 }
