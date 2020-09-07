@@ -749,4 +749,5 @@ div.footer-info > p > span {
 div.footer-social > i {
   margin: 0 0.5em;
   font-size: 0.9vw;
+  cursor: pointer;
 }
