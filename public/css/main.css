@@ -578,6 +578,7 @@ div.latest-news {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 8em;
 }
 div.latest-news > img {
   width: 32%;
@@ -626,4 +627,41 @@ div.latest-news-subscribe-box > button {
 
 div.latest-news-subscribe-box > button:hover {
   background-color: #1d60ca;
+}
+
+/* Info */
+div.general-info {
+  position: relative;
+  left: 5em;
+  display: flex;
+  max-width: 93vw;
+  justify-content: center;
+  margin-bottom: 10em;
+}
+
+div.general-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  height: 20vh;
+}
+div.general-info-box.mid {
+  margin: 0 3em;
+}
+
+div.general-info-box > i {
+  color: rgb(126, 125, 125);
+  font-size: 1.5em;
+  margin-bottom: 0.7em;
+}
+div.general-info-box > h5 {
+  font-family: "Viga", sans-serif;
+  color: rgb(126, 125, 125);
+  font-size: 1em;
+  margin-bottom: 0.7em;
+}
+div.general-info-box > p {
+  font-family: "Roboto", sans-serif;
+  color: rgb(107, 107, 107);
 }
