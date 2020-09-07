@@ -729,3 +729,24 @@ div.footer-links-col > ul > li > a:hover {
   color: black;
   font-weight: bold;
 }
+
+/* Footer */
+
+div.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3em;
+}
+div.footer-info > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9vw;
+}
+div.footer-info > p > i,
+div.footer-info > p > span {
+  color: #2577fe;
+}
+
+div.footer-social > i {
+  margin: 0 0.5em;
+  font-size: 0.9vw;
+}
