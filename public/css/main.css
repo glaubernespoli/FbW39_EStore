@@ -299,9 +299,13 @@ div.latest-products-nav-bar {
   font-family: "Alata", sans-serif;
   color: lightgray;
 }
+div.latest-products-nav-bar > ul {
+  list-style: none;
+}
 
 div.latest-products-nav-bar > ul > li {
   padding: 0 0.7em;
+  display: inline;
 }
 
 div.latest-products-nav-bar > ul > li:hover {
@@ -664,4 +668,16 @@ div.general-info-box > h5 {
 div.general-info-box > p {
   font-family: "Roboto", sans-serif;
   color: rgb(107, 107, 107);
+}
+
+/* Gallery of beautiful white people */
+div.gallery {
+  position: relative;
+  left: 3em;
+  display: flex;
+  width: 93vw;
+  margin-bottom: 8em;
+}
+div.gallery > img {
+  width: 20%;
 }
