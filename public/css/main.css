@@ -26,14 +26,14 @@ div.wrapper-box > input {
   border-radius: 10px;
 }
 
-div > ul > li > a {
+div.nav-bar > ul.nav-bar-list > li > a {
   text-decoration: none;
   color: black;
   transition: all 0.3s ease 0s;
   font-family: "Alata", sans-serif;
 }
 
-div > ul > li > a:hover {
+div.nav-bar > ul.nav-bar-list > li > a:hover {
   border-bottom: solid 3px;
   border-bottom-color: #2577fe;
 }
@@ -273,6 +273,7 @@ div > ul > li > a:hover {
 }
 
 /* Latest Products */
+
 div.latest-products {
   width: 75%;
   margin: 0 auto 10em auto;
@@ -634,6 +635,7 @@ div.latest-news-subscribe-box > button:hover {
 }
 
 /* Info */
+
 div.general-info {
   position: relative;
   left: 5em;
@@ -671,13 +673,59 @@ div.general-info-box > p {
 }
 
 /* Gallery of beautiful white people */
+
 div.gallery {
   position: relative;
   left: 3em;
   display: flex;
   width: 93vw;
-  margin-bottom: 8em;
+  margin-bottom: 10em;
 }
 div.gallery > img {
   width: 20%;
+}
+
+/* Links */
+
+div.footer-links {
+  position: relative;
+  left: 12em;
+  max-width: 76vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8em;
+}
+div.footer-links-col > img {
+  margin-bottom: 1.5em;
+}
+div.footer-links-col > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9vw;
+}
+div.footer-links-col > p span {
+  display: block;
+  margin-bottom: 0.7em;
+}
+
+div.footer-links-col > h5 {
+  margin-bottom: 1.5em;
+  font-family: "Viga", sans-serif;
+  font-size: 1vw;
+}
+
+div.footer-links-col > ul {
+  list-style: none;
+}
+div.footer-links-col > ul > li {
+  margin-bottom: 0.7em;
+}
+
+div.footer-links-col > ul > li > a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9vw;
+}
+div.footer-links-col > ul > li > a:hover {
+  color: black;
+  font-weight: bold;
 }
